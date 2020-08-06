@@ -14,12 +14,9 @@ namespace MintPlayer.Reflection.Extensions.Test
                 ClassName = "Math"
             };
 
+            // Get type to investigate
             var type = teacher.GetType();
-
-            var baseTypeInterfaces = type.BaseType.GetInterfaces();
-            var typeInterfaces = type.GetInterfaces();
-
-            var interfaces = typeInterfaces.Except(baseTypeInterfaces);
+            var interfaces = type.GetInterfaces(true);
         }
     }
 

@@ -17,6 +17,9 @@ namespace MintPlayer.Reflection.Extensions.Test
             // Get type to investigate
             var type = teacher.GetType();
             var interfaces = type.GetInterfaces(true);
+
+            foreach (var iface in interfaces)
+                Console.WriteLine(iface.FullName);
         }
     }
 

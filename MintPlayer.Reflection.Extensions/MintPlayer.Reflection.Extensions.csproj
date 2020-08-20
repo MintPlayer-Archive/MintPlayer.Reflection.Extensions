@@ -10,6 +10,7 @@
 		<RepositoryUrl>https://github.com/MintPlayer/MintPlayer.Reflection.Extensions</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>reflection, exclude inherited interfaces</PackageTags>
+		<Version>1.0.1</Version>
 		<IncludeSymbols>true</IncludeSymbols>
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	</PropertyGroup>
